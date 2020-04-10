@@ -13,7 +13,7 @@ map.get("test");
 - DEFAULT_LOAD_FACTOR = 0.75f; 默认负载因子
 - TREEIFY_THRESHOLD = 8; 链表转红黑树的长度
 - UNTREEIFY_THRESHOLD = 6; 红黑树转链表的长度 
-- MIN_TREEIFY_CAPACITY = 64; HashMap 触发链表转红黑树的最小容量 和 TREEIFY_THRESHOLD配合使用
+- MIN_TREEIFY_CAPACITY = 64; HashMap 触发链表转红黑树的最小数组长度 和 TREEIFY_THRESHOLD配合使用
 
 ### Init
 ```$xslt
